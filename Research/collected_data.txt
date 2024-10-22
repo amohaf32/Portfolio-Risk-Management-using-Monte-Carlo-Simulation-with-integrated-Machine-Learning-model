@@ -1,8 +1,7 @@
 Software preferences: 
 
 Note: ChatGPT has been used to get more accurate details with regards to Software specs
-
-Software preferences: 
+ 
 
 Coding language - Pyhton (Since we are using ecosystems of libraries for machine learning, finance-related tasks and data science)
 
