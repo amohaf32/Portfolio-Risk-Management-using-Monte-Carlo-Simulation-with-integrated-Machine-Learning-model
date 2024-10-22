@@ -1,0 +1,46 @@
+Software preferences: 
+
+Note: ChatGPT has been used to get more accurate details with regards to Software specs
+
+Software preferences: 
+
+Coding language - Pyhton (Since we are using ecosystems of libraries for machine learning, finance-related tasks and data science)
+
+Libraries and Frameworks - Taken from ChatGPT
+
+    Data Processing:
+
+        NumPy: For numerical computations, particularly matrix operations, random number generation (for Monte Carlo simulations), and more.
+        Pandas: For handling and manipulating time-series financial data, such as historical asset prices, portfolio returns, etc.
+
+    Monte Carlo Simulation and Financial Calculations:
+
+        SciPy: For statistical computations and optimization techniques, including random variable distributions.
+        PyPortfolioOpt: A library that helps with portfolio optimization and calculating risk-adjusted metrics like Sharpe ratio, VaR, etc.
+
+    Machine Learning:
+
+        Scikit-learn: For implementing machine learning algorithms like clustering (K-means) and regression models. It is also useful for training and testing your risk prediction models.
+        TensorFlow: For implementing more advanced models like LSTMs for volatility prediction.
+        Statsmodels: For time-series analysis, ARIMA, GARCH, or other forecasting models.
+
+    Visualization:
+
+        Matplotlib & Seaborn: For static visualizations of simulated outcomes, risk metrics, portfolio returns, and correlation heatmaps.
+        Plotly or Dash: For interactive visualizations and dashboards. Dash can be used to build web-based applications for users to interact with your Monte Carlo results dynamically.
+        Altair (Optional): Another powerful library for easy and declarative data visualization.
+
+    APIs for Data Collection:
+
+        yfinance: A Python wrapper for Yahoo Finance API to download stock market data.
+        Alpha Vantage API: Another option for real-time and historical data related to financial markets.
+        pandas_datareader: For fetching data from sources like FRED, World Bank, etc.
+
+API's for the financial data - (The following two are free to use, meaning not paid)
+
+    For historical data - Yahoo finance
+    For stock market data, technical indicators, etc - Alpha Vantage
+
+
+
+
