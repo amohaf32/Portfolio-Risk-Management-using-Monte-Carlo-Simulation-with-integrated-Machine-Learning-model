@@ -107,4 +107,4 @@ Montecarlo simulation       - SciPy, PyPortfolioOp
 Machine Learning            - Scikit-learn, TensorFlow, Statsmodels
 Visualization               - Matplotlib , Dash
 API                         - Alpha Vantage API
-
+Database                    - Postgre , MongoDB
