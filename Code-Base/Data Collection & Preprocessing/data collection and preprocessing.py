@@ -16,3 +16,5 @@ symbols = [
 
 data = yf.download(symbols, start="2021-01-01", end="2024-12-30")
 print(data)
+
+data.to_csv("historc_financial_data.csv")
