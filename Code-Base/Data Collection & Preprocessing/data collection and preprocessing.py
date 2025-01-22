@@ -1,24 +1,18 @@
-import numpy as np 
-import pandas as pd
-import requests
+import yfinance as yf
 
-#collectiing histoic data from the alpha vantage api 
+symbols = [
+    "AAPL", "MSFT", "AMZN", "NVDA", "GOOG", "GOOGL", "META", "TSLA", "PEP", "AVGO",
+    "COST", "CSCO", "ADBE", "NFLX", "CMCSA", "AMD", "QCOM", "INTC", "HON",
+    "INTU", "AMGN", "SBUX", "AMAT", "MDLZ", "ADI", "ISRG", "BKNG", "LRCX", "GILD",
+    "ADP", "VRTX", "MU", "REGN", "KLAC", "MRVL", "SNPS", "PANW", "CDNS",
+    "CSX", "MELI", "MNST", "LULU", "FTNT", "NXPI", "KDP", "ORLY", "MAR",
+    "CTAS", "PAYX", "EXC", "ODFL", "TEAM", "XEL", "FAST", "BIIB", "ROST", "CTSH",
+    "CHTR", "DLTR", "PCAR", "VRSK", "WBD", "AEP", "IDXX", "MCHP", "AZN", "EA",
+    "ANSS", "ALGN", "KHC", "BKR", "CDW", "DDOG", "CPRT", "CRWD", "DXCM",
+    "ZS", "CEG", "GFS", "PLTR", "MSTR", "AXON", "LIN", "ARM", "SMCI", "APP",
+    "GEHC", "ON", "TTWO", "PDD", "RIVN", "WBA", "ILMN", "LCID", "OKTA", "NTES",
+    "BIDU", "DOCU", "MTCH", "VRSN", "TCOM"
+]
 
-url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=8M9KQDJPDXRDACRV'
-r = requests.get(url)
-data = r.json()
-
+data = yf.download(symbols, start="2021-01-01", end="2024-12-30")
 print(data)
-
-
-# import numpy as np 
-# import pandas as pd
-# import requests
-
-# #collectiing histoic data from the alpha vantage api 
-
-# url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&outputsize=full&apikey=8M9KQDJPDXRDACRV'
-# r = requests.get(url)
-# data = r.json()
-
-# print(data)
