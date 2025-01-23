@@ -1,4 +1,6 @@
 import yfinance as yf
+import psycopg2
+import pandas as pd 
 
 symbols = [
     "AAPL", "MSFT", "AMZN", "NVDA", "GOOG", "GOOGL", "META", "TSLA", "PEP", "AVGO",
@@ -14,7 +16,37 @@ symbols = [
     "BIDU", "DOCU", "MTCH", "VRSN", "TCOM"
 ]
 
-data = yf.download(symbols, start="2021-01-01", end="2024-12-30")
-print(data)
+# Collect all data at once
+# Use a list comprehension to download and process data
+all_data = [
+    yf.download(symbol, start="2021-01-01", end="2024-12-30").assign(Ticker=symbol)
+    for symbol in symbols
+]
 
-data.to_csv("historc_financial_data.csv")
+# Concatenate all data into one DataFrame
+final_data = pd.concat(all_data, axis=0)
+
+# Reset index for a clean format
+final_data.reset_index(inplace=True)
+
+final_data.to_csv("historic_financial_data.csv", index=False)
+
+
+# #connect to postgreSQL
+# conn = psycopg2.connect(
+#     dbname="postgres", user="akilfiros", password="", host="127.0.0.1"
+# )
+# cur = conn.cursor()
+
+# # Insert data
+# for index, row in data.iterrows():
+#     cur.execute(
+#         "INSERT INTO financial_data (date, ticker, close, volume) VALUES (%s, %s, %s, %s)",
+#         (row['DATE'], row['Ticker'], row['Close'], row['Volume']),
+#     )
+
+# conn.commit()
+# cur.close()
+# conn.close()
+
+
