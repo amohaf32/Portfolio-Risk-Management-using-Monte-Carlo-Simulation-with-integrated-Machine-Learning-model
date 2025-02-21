@@ -19,8 +19,8 @@ returns = data.pivot(index='date', columns='ticker', values='close').pct_change(
 
 # Define simulation parameters
 num_simulations = 1000  # Number of Monte Carlo Simulations
-num_days = 252  # Number of trading days in a year
-initial_investment = 10000  # Starting capital
+num_days = 252  # Number of trading/working days in a year
+initial_investment = 1000  # Starting capital
 
 # Calculate mean and covariance of returns
 mean_returns = returns.mean()
