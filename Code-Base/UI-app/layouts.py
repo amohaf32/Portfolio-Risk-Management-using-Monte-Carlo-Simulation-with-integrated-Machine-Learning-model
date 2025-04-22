@@ -68,7 +68,7 @@
 
 from dash import html, dcc
 import dash_bootstrap_components as dbc
-from theme_config import THEMES
+# from theme_config import THEMES
 
 def get_layout():
     return dbc.Container([
