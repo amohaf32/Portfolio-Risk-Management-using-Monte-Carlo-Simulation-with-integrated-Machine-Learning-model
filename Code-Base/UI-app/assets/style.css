@@ -1,0 +1,44 @@
+/* Metric styling */
+.metric-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.metric-label {
+    font-weight: 500;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.metric-value {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+/* Progress bar labels */
+.progress-bar {
+    font-size: 0.8rem;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+/* Card headers */
+.card-header {
+    font-weight: 600 !important;
+}
+
+/* Input focus styling */
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .metric-row {
+        flex-direction: column;
+    }
+    .metric-label, .metric-value {
+        width: 100%;
+    }
+}
