@@ -10,11 +10,11 @@ This tool is essentially focused for use for the skilled workforce of the financ
 
 ## How can users get started on this tool ?
 
-At the moment the tool is still in the begging phases of planning and research. Updates will be made to users as the tool rolls out into production. 
-
-## Where can further help be found for the tool ? 
-
-Sufficient documentation will be made available in due time. 
+1. User will select there preffered asset from the dropdown list of all the companies that  they want to investe in or have already invested in. 
+2. After that the user will then select the time period for there investement. The simulation period starts from 1 month (21 days) to 1 year (252 days). 
+3. The next is to enter the portfolio weight which should sum up to 1. (This weight is fixed and cannot exceed this weight). 
+4. If you dont know the weight of your invested portfolio of each asset then you may go to the Investement Calculator, where you enter your amount that you have invested in the respective asset and then click calculate weight button you will see your porfolio weight auto-generated with respective to amount you have entered. 
+5. Once you have entered your portfolio weight or once you have entered the your amount and clicked calculate weigths button you shoould be able click on Run simulation button and see the results you want. 
 
 ## Who maintains this project ? 
 
