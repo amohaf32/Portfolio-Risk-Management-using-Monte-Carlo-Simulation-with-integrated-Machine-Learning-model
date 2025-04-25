@@ -16,6 +16,9 @@ This tool is essentially focused for use for the skilled workforce of the financ
 4. If you dont know the weight of your invested portfolio of each asset then you may go to the Investement Calculator, where you enter your amount that you have invested in the respective asset and then click calculate weight button you will see your porfolio weight auto-generated with respective to amount you have entered. 
 5. Once you have entered your portfolio weight or once you have entered the your amount and clicked calculate weigths button you shoould be able click on Run simulation button and see the results you want. 
 
+![alt text](<Screenshot 2025-04-25 at 4.22.21 pm.png>)
+![alt text](<Screenshot 2025-04-25 at 4.26.39 pm.png>)
+
 ## Who maintains this project ? 
 
 This is an individual project and is maintained by Akil Mohamed Firos. 
