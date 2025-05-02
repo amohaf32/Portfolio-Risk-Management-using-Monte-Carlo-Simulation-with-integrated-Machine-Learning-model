@@ -1,0 +1,84 @@
+Oct 12, 2024
+Update of README file 
+
+Oct 22, 2024
+Software requirments doc
+steps and how to collect of the data
+
+Nov 10, 2024
+added new line for DB
+
+Nov 23, 2024
+Updaed the software doc and merged it to master 
+
+Dec 02, 2024
+started on data collection and preprocessing code 
+started file for all libraries 
+
+Jan 22, 2025
+chage of api from alpha to built in yahoo finace
+added new lines of codes to the file 
+newly created csv file
+update to the code 
+
+Jan 23, 2025
+update of code - changing the start and end date 
+update of the csv file
+
+Jan 30, 2025
+data cleaning and prprocessing code - updated code 
+
+Feb 07, 2025
+Monte Caro simulation code
+
+Feb 21, 2025
+code update - has new recent found errors in data cleaning and preprocssing code 
+code update - simulation parameters update 
+
+Feb 24, 2025
+code update - Solved the issue in data collection file 
+
+Apr 08, 2025
+updated the fie from a normal file to jupyter file and added evaluation metrics - monte carlo simualtion
+part 1 model building LTSM and other models 
+
+Apr 09, 2025
+lstm models and the lstm model code file
+kmeans_clustering model code and evaluation
+kmeans_clustering mdoel code and results
+kmeans_clustering - update to file
+
+Apr 10, 2025
+trend analysis model using linear regression
+change to code and save of new csv data
+added code for Integration from machine learning model to the monetecarlo simulation
+
+Apr 21, 2025
+upadated /added code for integration of ml models to simulation
+
+Apr 22, 2025
+portfolio optmization algorithm code
+save simulation code
+ui for the simulation
+
+Apr 23, 2025
+updated code and ui
+code clean up
+code for excecuting all notebooks from CODE-BASE dir
+Merge branch 'UPTIME-3' into 'main'
+
+Apr 25, 2025
+README file update 
+added images to readme file
+updated lstm model
+updated the end date for data collection
+clean up of file
+removed file
+
+Apr 28, 2025
+metadata save
+
+May 02, 2025
+added fully updated project log 
+
+
