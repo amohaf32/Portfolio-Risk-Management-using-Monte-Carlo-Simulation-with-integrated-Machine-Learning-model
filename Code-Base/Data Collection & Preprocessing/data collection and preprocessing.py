@@ -23,7 +23,7 @@ tickers = [
 ]
 
 start_date = "2020-01-01"
-end_date = "2025-04-24"
+end_date = "2025-05-07"
 
 # Function to fetch data in batches with exponential backoff
 def fetch_data_with_backoff(tickers, start_date, end_date, max_retries=5, base_delay=60):
