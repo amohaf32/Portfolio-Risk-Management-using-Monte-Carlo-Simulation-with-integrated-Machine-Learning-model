@@ -3,9 +3,20 @@ import pandas as pd
 import time
 import numpy as np
 from sqlalchemy import create_engine
+import os
+from dotenv import load_dotenv
+
+ # Load environment variables from .env file
+load_dotenv()
+
+# Retrieve the database URL from the environment variable
+database_url = os.getenv("DATABASE_URL")
+
+# Create the engine using the environment variable
+engine = create_engine(database_url)
 
 # --- PostgreSQL connection ---
-engine = create_engine('postgresql://akilfiros:@127.0.0.1:5432/postgres')
+# engine = create_engine('postgresql://akilfiros:@127.0.0.1:5432/postgres')
 
 # --- Data Collection ---
 tickers = [
